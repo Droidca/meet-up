@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import EventNumber from '../EventNumber';
+import NumberOfEvents from '../NumberOfEvents';
 
-describe('<EventNumber /> component', () => {
+describe('<NumberOfEvents /> component', () => {
 
   let EventNumberWrapper;
   beforeAll(() => {
-    EventNumberWrapper = shallow(<EventNumber />);
+    EventNumberWrapper = shallow(<NumberOfEvents />);
   });
 
   test('Display default number of events', () => {
