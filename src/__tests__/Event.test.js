@@ -7,7 +7,7 @@ describe('<Event /> component', () => {
 
   let EventWrapper;
   beforeAll(() => {
-    EventWrapper = shallow(<Event events={mockData} />);
+    EventWrapper = shallow(<Event event={mockData[1]} />);
   });
 
   test('render an event', () => {
@@ -18,20 +18,12 @@ describe('<Event /> component', () => {
     expect(EventWrapper.find('.summary')).toHaveLength(1);
   });
 
-  test('render a description', () => {
-    expect(EventWrapper.find('.description')).toHaveLength(1);
-  });
-
   test('render a location', () => {
     expect(EventWrapper.find('.location')).toHaveLength(1);
   });
 
   test('render a start-time', () => {
-    expect(EventWrapper.find('.startTime')).toHaveLength(1);
-  });
-
-  test('render an end-time', () => {
-    expect(EventWrapper.find('.endTime')).toHaveLength(1);
+    expect(EventWrapper.find('.start_end_time')).toHaveLength(1);
   });
 
   test('information is colapsed', () => {

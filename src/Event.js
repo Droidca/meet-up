@@ -15,14 +15,23 @@ class Event extends Component {
 
   render() {
 
-    return <div className='event'>
-      <button className='show_hide_button' onClick={this.handleDetailsClicked}></button>
-      <p className='summary'></p>
-      <p className='description'></p>
-      <p className='location'></p>
-      <p className='startTime'></p>
-      <p className='endTime'></p>
-    </div>;
+    const { event } = this.props;
+    const { collapsed } = this.state;
+
+    return (
+
+      <div className='event'>
+        <h1 className='summary'>{event.summary}</h1>
+        <p className='location'>{event.location}</p>
+        <p className='start_end_time'>Start: {event.start.dateTime} | End: {event.end.dateTime} </p>
+        <button className='show_hide_button' onClick={this.handleDetailsClicked}>{collapsed ? 'show Details' : 'Hide Details'}</button>
+
+        {!collapsed && (
+          <p className='description'>{event.description}</p>
+        )}
+      </div>
+
+    );
   }
 }
 
