@@ -27,8 +27,11 @@ class Event extends Component {
         <button className='show_hide_button' onClick={this.handleDetailsClicked}>{collapsed ? 'show Details' : 'Hide Details'}</button>
 
         {!collapsed && (
-          <p className='description'>{event.description}</p>
+          <div className="event__Details">
+            <p className='description'>{event.description}</p>
+          </div>
         )}
+
       </div>
 
     );
