@@ -29,7 +29,7 @@ o.svg"
           </div>
         </div>
         <a
-          href="https://Droidca.github.io/meet/privacy.html"
+          href="https://Droidca.github.io/meet-up/privacy.html"
           rel="nofollow noopener"
         >
           Privacy policy
