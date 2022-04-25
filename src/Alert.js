@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export { InfoAlert };
 export { ErrorAlert };
+export { OfflineAlert };
 
 class Alert extends Component {
   constructor(props) {
@@ -32,6 +33,13 @@ class InfoAlert extends Alert {
 }
 
 class ErrorAlert extends Alert {
+  constructor(props) {
+    super(props);
+    this.color = 'red';
+  }
+}
+
+class OfflineAlert extends Alert {
   constructor(props) {
     super(props);
     this.color = 'blue';
