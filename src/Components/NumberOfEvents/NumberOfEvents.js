@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ErrorAlert } from '../Alert';
+import { ErrorAlert } from '../Alert/Alert';
 import './NumberOfEvents.css';
 
 class NumberOfEvents extends Component {

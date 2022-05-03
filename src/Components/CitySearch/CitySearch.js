@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { InfoAlert } from '../Alert';
+import { InfoAlert } from '../Alert/Alert';
 import './CitySearch.css';
 
 class CitySearch extends Component {
