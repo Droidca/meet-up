@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import EventList from './EventList';
-import CitySearch from './CitySearch';
-import NumberOfEvents from './NumberOfEvents';
-import WelcomeScreen from './WelcomeScreen';
-import EventGenre from './EventGenre';
-import { extractLocations, getEvents, checkToken, getAccessToken } from './api';
-import './nprogress.css';
-import { OfflineAlert } from './Alert';
+import EventList from '../EventList';
+import CitySearch from '../CitySearch';
+import NumberOfEvents from '../NumberOfEvents';
+import WelcomeScreen from '../WelcomeScreen';
+import EventGenre from '../EventGenre';
+import { extractLocations, getEvents, checkToken, getAccessToken } from '../../api';
+import '../../nprogress.css';
+import { OfflineAlert } from '../Alert';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 class App extends Component {

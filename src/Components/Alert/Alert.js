@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './Alert.css';
+
 export { InfoAlert };
 export { ErrorAlert };
 export { OfflineAlert };
