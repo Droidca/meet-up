@@ -14,7 +14,11 @@ The app will be able to be used offline, as long as the information is cached.
 
 ## Get Started
 
-- Not Yet Available
+
+- Clone the project ```https://github.com/Droidca/pokedex-app.git```
+- Open your terminal
+- cd to the project diretory
+- $npm run start
 
 ## User Stories
 - As a user, I want to have a show/hide button, so I can show/hid an event’s details as I please.
@@ -55,4 +59,14 @@ The app will be able to be used offline, as long as the information is cached.
 
 ## Deployment and Demo
 
-Not Yet Available
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+## Demo
+
+### <a href="https://droidca.github.io/meet-up/">LIVE DEMO</a> 
