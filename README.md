@@ -15,7 +15,7 @@ The app will be able to be used offline, as long as the information is cached.
 ## Get Started
 
 
-- Clone the project ```https://github.com/Droidca/pokedex-app.git```
+- Clone the project ```https://github.com/Droidca/meet-up.git```
 - Open your terminal
 - cd to the project diretory
 - $npm run start
